@@ -4,6 +4,8 @@ import pandas as pd
 
 ## 1. Raw data processing
 
+# 
+
 # The 'household_power_consumption.txt' file has the following attributes:
 #    * Each data point has a date and time (hour) of recording
 #    * The data points are separated by semicolons (;)
