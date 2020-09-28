@@ -18,14 +18,14 @@ def create_df(text_file, sep=';', na_values=['nan','?']):
     df = None
     
     # check that the file is the expected text file
-    expected_file='household_power_consumption.txt'
-    if(text_file != expected_file):
-        print('Unexpected file: '+str(text_file))
-        return df
+    # expected_file = 'C:\Users\Babar.Sajjad\Documents\MLND\Time_Series\household_power_consumption.txt'
+    # if(text_file != expected_file):
+    #     print('Unexpected file: '+str(text_file))
+    #     return df
     
     # read in the text file
     # each data point is separated by a semicolon
-    df = pd.read_csv('household_power_consumption.txt', sep=sep, 
+    df = pd.read_csv('C:\\Users\\Babar.Sajjad\\Documents\\MLND\\Time_Series\\household_power_consumption.txt', sep=sep, 
                      parse_dates={'Date-Time' : ['Date', 'Time']}, infer_datetime_format=True, 
                      low_memory=False, na_values=na_values, index_col='Date-Time') # indexed by Date-Time
 
