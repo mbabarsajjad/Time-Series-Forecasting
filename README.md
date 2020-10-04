@@ -1,3 +1,3 @@
 ## Energy Comsumption Forecasting
 
-### DeepAR and other algorithms are compared
+### DeepAR, Autoregressive Integrated Moving Average (ARIMA) and Exponential Smoothing (ETS) algorithms are compared.
