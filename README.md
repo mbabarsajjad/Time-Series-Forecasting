@@ -1,3 +1,3 @@
-### Energy Comsumption Forecasting
+## Energy Comsumption Forecasting
 
-## DeepAR and other algorithms are compared
+### DeepAR and other algorithms are compared
